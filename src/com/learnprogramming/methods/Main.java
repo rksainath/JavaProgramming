@@ -2,6 +2,7 @@ package com.learnprogramming.methods;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println(LeapYearCalculator.isLeapYear(1924));
+       MinutesToYearsAndDays.printYearsAndDays(561600);
+
     }
 }
