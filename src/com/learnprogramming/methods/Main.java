@@ -1,8 +1,11 @@
 package com.learnprogramming.methods;
 
+import com.learnprogramming.controlflow.NumberOfDaysInMonth;
+
 public class Main {
     public static void main(String[] args) {
-       MinutesToYearsAndDays.printYearsAndDays(561600);
+        System.out.println(NumberOfDaysInMonth.isLeapYear(2000));
+
 
     }
 }
